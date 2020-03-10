@@ -16,6 +16,7 @@
 		0174A71024182E0200188ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0174A70E24182E0200188ECC /* LaunchScreen.storyboard */; };
 		0174A71B24182E0200188ECC /* MenstrualProductAccessibilityMobileApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174A71A24182E0200188ECC /* MenstrualProductAccessibilityMobileApplicationTests.swift */; };
 		0174A72624182E0200188ECC /* MenstrualProductAccessibilityMobileApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174A72524182E0200188ECC /* MenstrualProductAccessibilityMobileApplicationUITests.swift */; };
+		0174A735241839BF00188ECC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174A734241839BF00188ECC /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0174A72124182E0200188ECC /* MenstrualProductAccessibilityMobileApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenstrualProductAccessibilityMobileApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0174A72524182E0200188ECC /* MenstrualProductAccessibilityMobileApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstrualProductAccessibilityMobileApplicationUITests.swift; sourceTree = "<group>"; };
 		0174A72724182E0200188ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0174A734241839BF00188ECC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,9 @@
 		0174A6FF24182E0000188ECC /* MenstrualProductAccessibilityMobileApplication */ = {
 			isa = PBXGroup;
 			children = (
+				0174A7332418396800188ECC /* Views */,
 				0174A70024182E0000188ECC /* AppDelegate.swift */,
 				0174A70224182E0000188ECC /* SceneDelegate.swift */,
-				0174A70724182E0000188ECC /* ContentView.swift */,
 				0174A70924182E0200188ECC /* Assets.xcassets */,
 				0174A70E24182E0200188ECC /* LaunchScreen.storyboard */,
 				0174A71124182E0200188ECC /* Info.plist */,
@@ -137,6 +139,15 @@
 				0174A72724182E0200188ECC /* Info.plist */,
 			);
 			path = MenstrualProductAccessibilityMobileApplicationUITests;
+			sourceTree = "<group>";
+		};
+		0174A7332418396800188ECC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0174A70724182E0000188ECC /* ContentView.swift */,
+				0174A734241839BF00188ECC /* MapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +285,7 @@
 				0174A70624182E0000188ECC /* MenstrualProductAccessibilityMobileApplication.xcdatamodeld in Sources */,
 				0174A70824182E0000188ECC /* ContentView.swift in Sources */,
 				0174A70324182E0000188ECC /* SceneDelegate.swift in Sources */,
+				0174A735241839BF00188ECC /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
